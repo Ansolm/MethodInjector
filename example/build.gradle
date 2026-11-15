@@ -7,13 +7,13 @@ plugins {
 
 
 android {
-    namespace 'com.iwdael.methodinjector.example'
-    compileSdk 32
+    namespace 'com.ansolm.methodinjector.example'
+    compileSdk 37
 
     defaultConfig {
-        applicationId "com.iwdael.methodinjector.example"
+        applicationId "com.ansolm.methodinjector.example"
         minSdk 21
-        targetSdk 32
+        targetSdk 37
         versionCode 1
         versionName "1.0"
 
@@ -27,11 +27,11 @@ android {
         }
     }
     compileOptions {
-        sourceCompatibility JavaVersion.VERSION_1_8
-        targetCompatibility JavaVersion.VERSION_1_8
+        sourceCompatibility JavaVersion.VERSION_17
+        targetCompatibility JavaVersion.VERSION_17
     }
     kotlinOptions {
-        jvmTarget = '1.8'
+        jvmTarget = "17"
     }
 }
 

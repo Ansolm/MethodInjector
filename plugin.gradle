@@ -1,8 +1,8 @@
-apply plugin: "com.iwdael.methodinjector"
+apply plugin: "com.ansolm.methodinjector"
 
 methodInjector {
     debug = true
-    classMatcher = "com\\.iwdael(.*)"
+    classMatcher = "com\\.ansolm(.*)"
     tagChain = "chain-inject"
     tagCost = "cast-inject"
     levelChain = "ERROR"

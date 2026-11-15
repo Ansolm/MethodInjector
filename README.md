@@ -2,7 +2,7 @@
 
 ![](https://img.shields.io/badge/platform-android-orange.svg)
 ![](https://img.shields.io/badge/language-kotlin-yellow.svg)
-![](https://jitpack.io/v/com.iwdael/methodinjector.svg)
+![](https://jitpack.io/v/com.ansolm/methodinjector.svg)
 ![](https://img.shields.io/badge/build-passing-brightgreen.svg)
 ![](https://img.shields.io/badge/license-apache--2.0-green.svg)
 ![](https://img.shields.io/badge/gradle-7+-green.svg)
@@ -23,7 +23,7 @@ MethodInjector是一个gradle plugin，当插件启用时，会在Apk打包流�
 ```
 methodInjector {
     debug = true
-    classMatcher = "com\\.iwdael(.*)"
+    classMatcher = "com\\.ansolm(.*)"
     tagChain = "chain-inject"
     tagCost = "cast-inject"
     levelChain = "ERROR"
@@ -64,12 +64,12 @@ rootProject build.gradle
 ```
 buildscript {
     dependencies {
-        classpath 'com.iwdael:methodinjector:version'
+        classpath 'com.ansolm:methodinjector:version'
     }
 }
 ```
 
 app module build.gradle
 ```
-apply plugin: "com.iwdael.methodinjector"
+apply plugin: "com.ansolm.methodinjector"
 ```

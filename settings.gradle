@@ -4,7 +4,7 @@ pluginManagement {
         google()
         mavenCentral()
 //        flatDir {
-//            dirs './repo/com/iwdael/methodinjector/0.0.1/'
+//            dirs './repo/com/ansolm/methodinjector/0.0.1/'
 //        }
 //        maven { url 'https://www.jitpack.io' }
     }
